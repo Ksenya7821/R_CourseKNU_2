@@ -108,5 +108,5 @@ strain <- h5read("H-H1_LOSC_C00_4_V1-1187006834-4096.hdf5", "strain/Strain")
  
 > plot(myTime[0:numSamples], strain[0:numSamples], type = "l", xlab = "GPS Time (s)", ylab = "H1 Strain")
 
- 
+ /Users/user/Desktop/Снимок экрана 2020-12-03 в 01.43.56.png
 
