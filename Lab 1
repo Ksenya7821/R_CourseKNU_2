@@ -8,12 +8,12 @@ download.file(url, destfile="./forecast.xlsx", mode='wb')
 
 install.packages("readxl")
 library(readxl)
-df<-read_excel("C:/Users/HP/Documents/forecast.xls", sheet=1)
+df<-read_excel("Users/user/Downloads/forecast.xls", sheet=1)
 df
 
-df<-read_excel("C:/Users/HP/Documents/forecast.xls", sheet=1)
+df<-read_excel("Users/user/Downloads/forecast.xls", sheet=1)
 > df
-# A tibble: 17 x 8
+# A tibble: 10 x 8
    `№ з/п` Показник `Прогноз 2020 с~ `Прогноз 2020 с~ `Прогноз 2021 с~ `Прогноз 2021 с~
      <dbl> <chr>    <chr>            <chr>            <chr>            <chr>           
  1       1 Валовий~ 4510.8000000000~ 4 598,8          5 041,6          5 206,9         
@@ -26,13 +26,7 @@ df<-read_excel("C:/Users/HP/Documents/forecast.xls", sheet=1)
  8       8 Середнь~ 12497            12552            14187            14692           
  9       9 Середнь~ 110.09999999999~ 110.40000000000~ 107.5            110.90000000000~
 10      10 Кількіс~ 16.510000000000~ 16.780000000000~ 16.609999999999~ 16.920000000000~
-11      11 Рівень ~ 8.0999999999999~ 7.2999999999999~ 7.9000000000000~ 6.7000000000000~
-12      12 Продукт~ 103.2            102.59999999999~ 103.2            104.59999999999~
-13      13 Сальдо ~ –14 882          –16 743          –16 561          –21 597         
-14      14 Експорт~ 68642            69270            73530            75692           
-15      15 Експорт~ 107.8            108.8            107.09999999999~ 109.3           
-16      16 Імпорт ~ 83524            86013            90091            97289           
-17      17 Імпорт ~ 109.59999999999~ 112.90000000000~ 107.90000000000~ 113.09999999999~
+
 
 2. 
 1) Download csv file
